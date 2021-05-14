@@ -1,5 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: Roboto;
+  text-align: center;
+}
+
+body {
+  background-color: #5ac5bc;
+}
+
+.list {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 35px;
+  width: 50%;
+  margin: 10px auto;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.651);
+}
+
+.item {
+  display: inline-block;
+  padding: 3px 5px;
+}
 
 /*# sourceMappingURL=style.css.map */
